@@ -1,0 +1,32 @@
+{
+  "name": "slidl",
+  "version": "1.0.0",
+  "description": "sLidl",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ext js --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "deti",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "dom-parser": "^0.1.6",
+    "express": "^4.17.1",
+    "jsdom": "^15.2.1",
+    "querystring": "^0.2.0",
+    "soap": "^0.30.0",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.1"
+  }
+}

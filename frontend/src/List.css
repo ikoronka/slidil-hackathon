@@ -1,0 +1,68 @@
+tr {
+  border-width: 2vw;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.list_table{
+  border-collapse: collapse;
+  width: 100%;
+  align-content: center;
+}
+
+.table{
+  background-color: white;
+}
+
+.mesto{
+  color: #09d3ac;
+}
+.container {
+  padding: 2rem 0rem;
+}
+
+h4 {
+  margin: 2rem 0rem 1rem;
+}
+
+td, th {
+  vertical-align: middle;
+}
+
+tr{
+  border: 5px solid #282c34;
+  border-radius: 500px;
+}
+.container {
+  padding: 2rem 0rem;
+}
+
+.h4 {
+  margin: 2rem 0rem 1rem;
+}
+
+.result{
+  vertical-align: middle;
+}
